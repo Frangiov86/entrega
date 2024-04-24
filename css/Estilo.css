@@ -123,7 +123,7 @@ text-align: center;
     
 
 }
-
+/* Formato Grid flex */
 .cuadroimagenesgrid div{
     border-radius: 15px;
     margin: 10px;
@@ -290,7 +290,21 @@ margin: 20px;
 
     .titulohistoria{
 
-        margin-right: 220px;
+        margin-right: 20px;
     }
+
+    .cuadroimagenesgrid{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        font-family: sans-serif;
+        
+    
+    }
+
+
 
 }
